@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: citlali
-  Date: 06/12/2018
-  Time: 07:12 AM
-  To change this template use File | Settings | File Templates.
---%>
 <jsp:include page='views/header.jsp'></jsp:include>
 
 <div class="container">

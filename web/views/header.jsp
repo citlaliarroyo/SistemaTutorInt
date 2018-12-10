@@ -16,6 +16,29 @@
     <script type="text/javascript" src="js/sweetalert.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     <script type="text/javascript" src="js/alertas.js"></script>
+    <script>
+        function delete_datos(id_to_delete)
+        {
+            var confirmation = confirm(String.fromCharCode(191)+'Est\u00E1 seguro de que desea eliminar la datos personales con clave '+ id_to_delete);
+
+            if(confirmation)
+            {
+                window.location = "borrar_datos.jsp?id_datos="+id_to_delete;
+            }
+        }
+    </script>
+
+    <script>
+        function delete_inteligencia(id_to_delete)
+        {
+            var confirmation = confirm(String.fromCharCode(191)+'Est\u00E1 seguro de que desea eliminar la inteligencia con clave '+ id_to_delete);
+
+            if(confirmation)
+            {
+                window.location = "borrar_inteligencia.jsp?id_inteligencias="+id_to_delete;
+            }
+        }
+    </script>
 </head>
 <body>
 <!--Import jQuery before materialize.js-->

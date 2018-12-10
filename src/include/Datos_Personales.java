@@ -8,6 +8,9 @@ public class Datos_Personales {
     private int edad;
     private int id_tipo;
     private int id_usuario;
+
+
+
     public Datos_Personales(int id_datos, String nombre, String a_paterno, String a_materno, int edad, int id_tipo, int id_usuario) {
         this.id_datos = id_datos;
         this.nombre = nombre;

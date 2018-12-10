@@ -4,6 +4,7 @@ public class Tipo_Usuario {
     private int id_tipo;
     private String nombre_tipo_usuario;
 
+
     public Tipo_Usuario(int id_tipo, String nombre_tipo_usuario){
         this.id_tipo = id_tipo;
         this.nombre_tipo_usuario = nombre_tipo_usuario;
