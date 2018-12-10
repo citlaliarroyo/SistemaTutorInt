@@ -5,6 +5,40 @@
 <%@ page import="include.Datos_Cuenta" %>
 <jsp:include page="views/header.jsp"></jsp:include>
 
+<!-- materialize css cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- agregar css estilos -->
+
+<style>
+    body{
+        background-image: url(images/fendi.jpg);
+        background-size: cover;
+        color: #fff;
+    }
+    .login{
+        margin-top: 100px;
+    }
+    .login .card{
+        background: rgba(0, 0, 0, .6);
+    }
+    .login label{
+        front-size: 16px;
+        color: #ccc;
+    }
+    .login input{
+        front-size: 20px;
+        color: #fff;
+    }
+    .login button:hover{
+        padding: 0px 40px;
+    }
+
+</style>
+
+
+<!-- Login form -->
+
 <%
     controladordatos_personales cc = new controladordatos_personales();
     ArrayList<Tipo_Usuario> tipo_usuario = new ArrayList<Tipo_Usuario>();

@@ -2,6 +2,8 @@
 <%@ page import="include.Datos_Personales" %>
 <%@ page import="java.util.ArrayList" %>
 <jsp:include page='views/header.jsp'></jsp:include>
+
+
 <%
     int id_datos = 0;
     try {

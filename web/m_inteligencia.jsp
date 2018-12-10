@@ -3,6 +3,7 @@
 <%@ page import="java.util.ArrayList" %>
 <jsp:include page='views/header.jsp'></jsp:include>
 
+
 <%
     int id_inteligencias = 0;
     try {
