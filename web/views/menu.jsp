@@ -4,8 +4,8 @@
             <div class="nav-wrapper">
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.jsp"><i class="material-icons left">home</i>Inicio</a></li>
-                   <li><a href="datospersonales.jsp"><i class="material-icons left">group_add</i>Datos Personales</a></li>
-                    <li><a href="inteligencias.jsp"><i class="material-icons left">persona</i>Inteligencia</a></li>
+                   <li><a href="datospersonales.jsp"><i class="material-icons left">person</i>Datos Personales</a></li>
+                    <li><a href="inteligencias.jsp"><i class="material-icons left">person_add</i>Inteligencia</a></li>
 
                     <li>
                         <a href="logout.jsp">

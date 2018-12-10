@@ -8,7 +8,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            Made by <a class="orange-text text-lighten-3" href="http://twitter.com/citlali" target="_blank">Citlali</a>
+            Made by <a class="orange-text text-lighten-3" href="http://instragram/citlali_arroyito/" target="_blank">Citlali</a>
         </div>
     </div>
 </footer>
